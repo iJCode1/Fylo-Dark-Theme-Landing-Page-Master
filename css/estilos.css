@@ -109,13 +109,56 @@ body {
   margin: 10px 0px 0px 0px;
 }
 
+/*  --------------------------  Footer ----------------------------*/
+
 .footer {
+  height: 300px;
   background: #000025;
   color: white;
+}
+
+.footer-imageWrapper {
   display: flex;
-  height: 200px;
+  justify-content: start;
+}
+
+.image-footer {
+  margin: 50px 0px 10px 100px;
+}
+
+.footerWrapper {
+  display: flex;
+
   align-items: center;
   justify-content: space-evenly;
+}
+
+.place {
+  background-image: url("../images/icon-location.svg");
+  background-repeat: no-repeat;
+}
+
+.place-text {
+  padding: 0px 0px 0px 35px;
+}
+
+.cellphone {
+  background-image: url("../images/icon-phone.svg");
+  background-repeat: no-repeat;
+  margin-bottom: 20px;
+}
+
+.cellphone-number {
+  padding: 0px 0px 0px 35px;
+}
+
+.email-text {
+  background: url("../images/icon-email.svg");
+  background-repeat: no-repeat;
+}
+
+.email-text {
+  padding: 0px 0px 0px 35px;
 }
 
 .image-footer {
@@ -126,4 +169,36 @@ body {
 .social-image {
   width: 20px;
   height: 20px;
+}
+
+.about ol {
+  list-style: none;
+}
+
+.about-title {
+  margin: 0px 0px 10px 0px;
+}
+
+.about-element {
+  margin: 0px 0px 10px 0px;
+}
+
+.terms ol {
+  list-style: none;
+}
+
+.term-title {
+  margin: 0px 0px 10px 0px;
+}
+
+.term-element {
+  margin: 0px 0px 10px 0px;
+}
+
+.social-networks {
+  display: flex;
+}
+
+.social-image {
+  margin: 0px 10px 0px 0px;
 }
