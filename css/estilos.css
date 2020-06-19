@@ -4,7 +4,7 @@
 }
 
 body {
-  background: #1b1b2f;
+  background: #1f1f2e;
 }
 
 .header {
@@ -97,9 +97,6 @@ body {
   justify-content: center;
 }
 
-.element-image {
-}
-
 .element-title {
   color: white;
   text-align: center;
@@ -110,4 +107,14 @@ body {
   color: white;
   text-align: center;
   margin: 10px 0px 0px 0px;
+}
+
+.footer {
+  background: #000025;
+  color: white;
+}
+
+.image-footer {
+  width: 100px;
+  height: 30px;
 }
