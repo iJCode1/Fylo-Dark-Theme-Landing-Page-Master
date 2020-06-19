@@ -112,9 +112,18 @@ body {
 .footer {
   background: #000025;
   color: white;
+  display: flex;
+  height: 200px;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .image-footer {
   width: 100px;
   height: 30px;
+}
+
+.social-image {
+  width: 20px;
+  height: 20px;
 }
