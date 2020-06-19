@@ -40,6 +40,10 @@ body {
 }
 
 .hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .hero-imageWrapper {
   width: 400px;
@@ -57,4 +61,17 @@ body {
 
 .hero-description {
   color: white;
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.hero-button {
+  font-size: 11px;
+  color: white;
+  background: #5fdde5;
+  width: 150px;
+  height: 25px;
+  border-radius: 30px;
+  border-style: none;
+  margin-top: 10px;
 }
