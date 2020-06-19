@@ -53,16 +53,19 @@ body {
 .hero-image {
   width: inherit;
   height: inherit;
+  margin: 10px 0px 0px 0px;
 }
 
 .hero-title {
   color: white;
+  text-align: center;
 }
 
 .hero-description {
   color: white;
   margin-top: 10px;
   font-size: 12px;
+  text-align: center;
 }
 
 .hero-button {
@@ -70,8 +73,41 @@ body {
   color: white;
   background: #5fdde5;
   width: 150px;
-  height: 25px;
+  height: 27px;
   border-radius: 30px;
   border-style: none;
-  margin-top: 10px;
+  margin-top: 20px;
+}
+
+.list-elements {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 150px 0px 20px 0px;
+}
+
+.list-elementWrapper {
+  width: 550px;
+  margin: 0px 0px 50px 0px;
+  padding: 0px;
+}
+
+.element-imageWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.element-image {
+}
+
+.element-title {
+  color: white;
+  text-align: center;
+  margin: 10px 0px 0px 0px;
+}
+
+.element-description {
+  color: white;
+  text-align: center;
+  margin: 10px 0px 0px 0px;
 }
