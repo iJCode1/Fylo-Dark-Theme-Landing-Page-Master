@@ -257,16 +257,22 @@ body {
   margin: 0px 0px 20px 0px;
 }
 
-.card-person1 {
-  background-image: url("../images/profile-1.jpg");
-  background-size: 20px 20px;
-  background-repeat: no-repeat;
+.card-person {
   padding: 0px 0px 0px 30px;
   background-position-y: center;
+  display: flex;
+  align-items: center;
+}
+
+.card-imageWrapper {
+  width: 25px;
+  height: 25px;
 }
 
 .card-image {
   border-radius: 50%;
+  width: inherit;
+  height: inherit;
 }
 
 .card-person2 {
@@ -287,4 +293,8 @@ body {
 
 .card-person-job {
   font-size: 9px;
+}
+
+.personWrapper {
+  margin: 0px 0px 0px 10px;
 }
