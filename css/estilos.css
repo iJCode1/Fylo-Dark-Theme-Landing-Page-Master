@@ -123,12 +123,12 @@ body {
 }
 
 .image-footer {
-  margin: 50px 0px 10px 100px;
+  margin: 120px 0px 10px 100px;
 }
 
 .footerWrapper {
   display: flex;
-
+  margin-bottom: 20px;
   align-items: center;
   justify-content: space-evenly;
 }
@@ -296,5 +296,49 @@ body {
 }
 
 .personWrapper {
+  margin: 0px 0px 0px 10px;
+}
+
+/*  --------------------------  Form Access ----------------------------*/
+
+.access {
+  background: #1c2230;
+  width: 700px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin: 0px auto;
+  align-items: center;
+
+  border-radius: 5px;
+  margin-bottom: -80px;
+  position: relative;
+  padding: 20px 30px 10px 30px;
+}
+
+.access-title {
+  margin: 10px 0px 20px 0px;
+}
+
+.access-description {
+  margin: 0px 0px 20px 0px;
+  text-align: center;
+}
+
+.access-form-input {
+  width: 500px;
+  height: 40px;
+  border-radius: 30px;
+  border-style: none;
+  padding: 0px 0px 0px 20px;
+}
+
+.access-form-button {
+  background: #42b0d1;
+  height: 40px;
+  color: white;
+  border-radius: 30px;
+  border-style: none;
+  padding: 0px 20px 0px 20px;
   margin: 0px 0px 0px 10px;
 }
