@@ -5,6 +5,7 @@
 
 body {
   background: #181e2a;
+  font-family: "Questrial", sans-serif;
 }
 
 .header {
@@ -65,6 +66,7 @@ body {
 .hero-title {
   color: white;
   text-align: center;
+  margin: 20px 0px 0px 0px;
 }
 
 .hero-description {
@@ -72,6 +74,7 @@ body {
   margin-top: 10px;
   font-size: 12px;
   text-align: center;
+  line-height: 15px;
 }
 
 .hero-button {
@@ -352,5 +355,3 @@ body {
 }
 
 /*  --------------------------  Bdckground Mountain ----------------------------*/
-.bgMountain {
-}
